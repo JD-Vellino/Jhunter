@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="t d">
+  <title id="t">JHunter workflow</title>
+  <desc id="d">High-level workflow for discovering roles, verifying availability, qualifying fit, routing a CV, tailoring application material, and packaging the application.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111d"/>
+      <stop offset="1" stop-color="#03070c"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102239"/>
+      <stop offset="1" stop-color="#0a1525"/>
+    </linearGradient>
+    <style>
+      .title{font:700 46px Inter,Arial,sans-serif;fill:#f4f8ff}
+      .sub{font:400 20px Inter,Arial,sans-serif;fill:#97acc4}
+      .step{font:700 15px Inter,Arial,sans-serif;fill:#6f92b5;letter-spacing:1.7px}
+      .h{font:700 24px Inter,Arial,sans-serif;fill:#e9f2ff}
+      .b{font:400 17px Inter,Arial,sans-serif;fill:#aec0d3}
+      .small{font:600 14px Inter,Arial,sans-serif;fill:#7895b3}
+      .card{fill:url(#card);stroke:#274761;stroke-width:2}
+      .route{fill:#0c1b2a;stroke:#4b8ed6;stroke-width:2}
+      .out{fill:#0b1b21;stroke:#4fc9c3;stroke-width:2}
+      .line{fill:none;stroke:#3d668c;stroke-width:3}
+    </style>
+  </defs>
+  <rect width="1600" height="760" fill="url(#bg)"/>
+  <text x="75" y="72" class="title">JHunter</text>
+  <text x="75" y="108" class="sub">AI-assisted job discovery, qualification, CV routing, and application packaging</text>
+
+  <g transform="translate(55 200)">
+    <rect width="220" height="250" rx="22" class="card"/>
+    <text x="28" y="42" class="step">01 · DISCOVER</text>
+    <text x="28" y="86" class="h">Find roles</text>
+    <text x="28" y="126" class="b">Collect candidate jobs</text>
+    <text x="28" y="158" class="b">across supported sources.</text>
+    <text x="28" y="211" class="small">NORMALIZE INTO ONE PIPELINE</text>
+  </g>
+
+  <path d="M275 325 H330" class="line"/><polygon points="330,325 314,316 314,334" fill="#3d668c"/>
+
+  <g transform="translate(335 200)">
+    <rect width="220" height="250" rx="22" class="card"/>
+    <text x="28" y="42" class="step">02 · VERIFY</text>
+    <text x="28" y="86" class="h">Check actionability</text>
+    <text x="28" y="126" class="b">Open? Closed? Duplicate?</text>
+    <text x="28" y="158" class="b">Evidence available?</text>
+    <text x="28" y="211" class="small">AVOID WASTED PACKAGING WORK</text>
+  </g>
+
+  <path d="M555 325 H610" class="line"/><polygon points="610,325 594,316 594,334" fill="#3d668c"/>
+
+  <g transform="translate(615 200)">
+    <rect width="220" height="250" rx="22" class="card"/>
+    <text x="28" y="42" class="step">03 · QUALIFY</text>
+    <text x="28" y="86" class="h">Assess fit</text>
+    <text x="28" y="126" class="b">Compare requirements</text>
+    <text x="28" y="158" class="b">with the target profile.</text>
+    <text x="28" y="211" class="small">FIT BEFORE EFFORT</text>
+  </g>
+
+  <path d="M835 325 H890" class="line"/><polygon points="890,325 874,316 874,334" fill="#3d668c"/>
+
+  <g transform="translate(895 170)">
+    <rect width="250" height="310" rx="22" class="route"/>
+    <text x="28" y="42" class="step">04 · ROUTE</text>
+    <text x="28" y="86" class="h">Choose the CV track</text>
+    <rect x="28" y="120" width="194" height="45" rx="14" fill="#10263c" stroke="#315d86"/>
+    <text x="125" y="149" text-anchor="middle" class="b">Product / PO</text>
+    <rect x="28" y="180" width="194" height="45" rx="14" fill="#10263c" stroke="#315d86"/>
+    <text x="125" y="209" text-anchor="middle" class="b">Business Analyst</text>
+    <rect x="28" y="240" width="194" height="45" rx="14" fill="#10263c" stroke="#315d86"/>
+    <text x="125" y="269" text-anchor="middle" class="b">Solutions Consultant</text>
+  </g>
+
+  <path d="M1145 325 H1200" class="line"/><polygon points="1200,325 1184,316 1184,334" fill="#3d668c"/>
+
+  <g transform="translate(1205 200)">
+    <rect width="220" height="250" rx="22" class="card"/>
+    <text x="28" y="42" class="step">05 · TAILOR</text>
+    <text x="28" y="86" class="h">Adapt the package</text>
+    <text x="28" y="126" class="b">Preserve factual history.</text>
+    <text x="28" y="158" class="b">Change emphasis to fit.</text>
+    <text x="28" y="211" class="small">EVIDENCE-BASED TAILORING</text>
+  </g>
+
+  <path d="M1425 325 H1480" class="line"/><polygon points="1480,325 1464,316 1464,334" fill="#3d668c"/>
+
+  <g transform="translate(1325 520)">
+    <rect width="220" height="115" rx="20" class="out"/>
+    <text x="26" y="42" class="step">06 · PACKAGE</text>
+    <text x="26" y="82" class="h">Application ready</text>
+  </g>
+
+  <path d="M1530 450 V520" class="line"/><polygon points="1530,520 1521,504 1539,504" fill="#3d668c"/>
+
+  <text x="75" y="655" class="h">Human decision at the end of the pipeline</text>
+  <text x="75" y="691" class="b">Automation removes repetitive work; the candidate retains control over which opportunities to pursue and submit.</text>
+</svg>
